@@ -10,8 +10,6 @@ import News from "./pages/News";
 import Gallery from "./pages/Gallery";
 import Products from "./pages/Products"; 
 
-const basename = process.env.NODE_ENV === "development" ? "/" : "/techsupplyhub";
-
 function App() {
   return (
     <Router>
