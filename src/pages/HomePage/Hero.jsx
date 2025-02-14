@@ -24,7 +24,7 @@ const Hero = () => {
         </div>
 
         <div className="hero__slide">
-          <img src={require("../../assets/imgs/hero__slide--1.png")} alt="Gaming Keyboard" />
+          <img src={require("../../assets/imgs/hero__slide--2.png")} alt="Gaming Keyboard" />
           <div className="hero__text">
             <h2>RGB Mechanical Keyboard</h2>
             <p>Latest Model for Pro Gamers</p>
@@ -33,7 +33,7 @@ const Hero = () => {
         </div>
 
         <div className="hero__slide">
-          <img src={require("../../assets/imgs/hero__slide--1.png")} alt="Gaming Mouse" />
+          <img src={require("../../assets/imgs/hero__slide--3.png")} alt="Gaming Mouse" />
           <div className="hero__text">
             <h2>Precision Gaming Mouse</h2>
             <p>Ultra-responsive for Fast Play</p>
