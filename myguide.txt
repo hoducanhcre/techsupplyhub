@@ -17,3 +17,5 @@ npm install react-responsive-carousel
                 <img src={require("../../assets/imgs/icons/header/cart.svg").default} alt="Cart Icon" />
               </div>
             </a> */}
+
+npm install react-router-dom
