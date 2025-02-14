@@ -1,0 +1,141 @@
+/* FOOTER */
+.footer {
+    background-color: #1A1A1A;
+    color: #ccc;
+    font-size: 1.4rem; /* 14px */
+    margin-top: 9rem; /* 90px */
+  }
+  .footer__divider {
+    border: none;
+    border-top: 0.1rem solid #333;
+  }
+  .footer__row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem; /* 20px */
+    align-items: center;
+    justify-content: space-between;
+    padding: 7rem 0; /* 70px 0 */
+  }
+  .footer__row--info {
+    padding: 3rem 0; /* 30px 0 */
+  }
+  .footer__col {
+    flex: 1 1 20rem; /* 200px */
+  }
+  .footer__col--newsletter-title h2 {
+    font-size: 2.4rem; /* 24px */
+    color: #fff;
+    margin: 1.5rem 0; /* 15px 0 */
+  }
+  .footer__newsletter-box {
+    display: inline-flex;
+    width: 100%;
+    padding: 0 1rem; /* 0 10px */
+    gap: 1rem; /* 10px */
+  }
+  .footer__newsletter-box input {
+    padding: 2.1rem 2rem; /* 21px 20px */
+    border: 0.1rem solid #333;
+    border-radius: 0.8rem; /* 8px */
+    width: 100%;
+    font-size: 1.6rem; /* 16px */
+    color: #fff;
+    background-color: #1A1A1A;
+  }
+  .footer__newsletter-box input::placeholder {
+    color: #aaa;
+  }
+  .footer__newsletter-box button {
+    padding: 2.1rem 3rem; /* 21px 30px */
+    border: none;
+    border-radius: 0.8rem; /* 8px */
+    background: #1e90ff;
+    color: #fff;
+    cursor: pointer;
+  }
+  .footer__col--follow h3 {
+    font-size: 2.1rem; /* 21px */
+    color: #fff;
+    margin-bottom: 1rem; /* 10px */
+  }
+  .footer__social-icons a {
+    display: inline-block;
+    margin-right: 1.5rem; /* 15px */
+  }
+  .footer__social-icons img {
+    width: 1.6rem; /* 16px */
+    height: auto;
+    filter: invert(67%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(85%) contrast(90%);
+    transition: filter 0.3s;
+  }
+  .footer__links .footer__col h4 {
+    font-size: 2rem; /* 20px */
+    color: #fff;
+    margin-bottom: 1rem; /* 10px */
+  }
+  .footer__links .footer__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .footer__links .footer__list li {
+    margin: 1rem 0; /* 10px 0 becomes 1rem if 10px, but check: 10px is 1rem? Actually 10px=1rem since 1rem=10px */
+  }
+  .footer__links .footer__list li a {
+    font-size: 1.5rem; /* 15px */
+    color: #acacac;
+  }
+  .footer__links .footer__list li a:hover {
+    color: #fff;
+  }
+  .footer__info {
+    text-align: center;
+  }
+  .footer__col--logo {
+    text-align: left;
+  }
+  .footer__col--logo img {
+    width: 10rem; /* 100px */
+  }
+  .footer__col--phone,
+  .footer__col--shipping,
+  .footer__col--discount {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer__col-icon {
+    margin-right: 2rem; /* 20px */
+    display: inline-flex;
+    align-items: center;
+  }
+  .footer__col-icon a img {
+    width: 3rem; /* 30px */
+    height: auto;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
+  }
+  .footer__col-info h4 {
+    margin: 0;
+    font-size: 2.2rem; /* 22px */
+    color: #fff;
+    font-weight: normal;
+  }
+  .footer__bottom {
+    font-size: 1.2rem; /* 12px */
+  }
+  .footer__bottom-left {
+    flex: 1;
+  }
+  .footer__bottom-left p {
+    color: #606060;
+  }
+  .footer__bottom-right {
+    flex: 1;
+    text-align: right;
+  }
+  .footer__bottom-right img {
+    width: 27.3rem; /* 273px */
+    margin-left: 0.8rem; /* 8px */
+    vertical-align: middle;
+  }
