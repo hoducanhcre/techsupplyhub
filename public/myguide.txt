@@ -26,3 +26,6 @@ https://gizmos.qodeinteractive.com/wp-content/uploads/2022/10/home-11-slider-pho
 
 
 "homepage": "https://hoducanhcre.github.io/techsupplyhub",
+
+git config --global user.email "hoducanhcre@gmail.com"
+git config --global user.name "Ho Duc Anh"
