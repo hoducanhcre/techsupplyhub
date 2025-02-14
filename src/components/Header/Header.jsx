@@ -36,7 +36,7 @@ const Header = () => {
               <li><NavLink to="/about">About Us</NavLink></li>
               <li><NavLink to="/news">News</NavLink></li>
               <li><NavLink to="/gallery">Gallery</NavLink></li>
-              <li><a href="#">Support</a></li>  {/* Không có link */}
+              <li><a href="#!">Support</a></li>  {/* Không có link */}
             </ul>
           </nav>
           <div className="header__icons">
