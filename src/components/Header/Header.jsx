@@ -1,9 +1,26 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./Header.css";
 
 const Header = () => {
+  const [isSticky, setIsSticky] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 40) { // Khi cuộn xuống hơn 40px (độ cao của Top Bar)
+        setIsSticky(true);
+      } else {
+        setIsSticky(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <header className="header">
+    <header className={`header ${isSticky ? "sticky" : ""}`}>
       <div className="container__homepage">
         <div className="header__inner">
           <div className="header__logo">
@@ -22,21 +39,6 @@ const Header = () => {
             <a href="#!" title="Search">
               <div className="header__icon-right">
                 <img src={require("../../assets/imgs/icons/header/search.svg").default} alt="Search Icon" />
-              </div>
-            </a>
-            <a href="#!" title="Compare">
-              <div className="header__icon-right">
-                <img src={require("../../assets/imgs/icons/header/arrow-left-right.svg").default} alt="Compare Icon" />
-              </div>
-            </a>
-            <a href="#!" title="Wishlist">
-              <div className="header__icon-right">
-                <img src={require("../../assets/imgs/icons/header/heart.svg").default} alt="Heart Icon" />
-              </div>
-            </a>
-            <a href="#!" title="Cart">
-              <div className="header__icon-right">
-                <img src={require("../../assets/imgs/icons/header/cart.svg").default} alt="Cart Icon" />
               </div>
             </a>
             <a href="#!" title="User">

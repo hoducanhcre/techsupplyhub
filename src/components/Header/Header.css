@@ -3,50 +3,98 @@
   padding: 1.5rem 0; /* 15px 0 */
   background: url('../../assets/imgs/home-11-bg-img.jpg') no-repeat center center/cover;
   border-bottom: 0.1rem solid #444;
+  transition: all 0.3s ease-in-out;
 }
+
+/* Khi header trở thành sticky */
+.header.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: url('../../assets/imgs/home-11-bg-img.jpg') no-repeat center center/cover; /* Giữ nguyên nền */
+  border-bottom: 0.1rem solid #444;
+  z-index: 1000;
+}
+
+/* Không thay đổi style menu */
 .header__inner {
   display: flex;
   align-items: center;
 }
+
 .header__logo img {
   width: 10rem; /* 100px */
   margin-top: 0.5rem; /* 5px */
 }
+
 .header__nav {
   margin-left: 3rem; /* 30px */
 }
+
 .header__nav ul {
   display: flex;
   list-style: none;
   gap: 0;
 }
+
 .header__nav li a {
   font-size: 1.4rem; /* 14px */
   font-weight: 600;
   padding: 2.2rem 2rem; /* 22px 20px */
   transition: color 0.5s;
 }
+
 .header__nav li a:hover {
   color: #ffffff;
   background-color: #000;
 }
+
 .header__nav li a.active {
   background-color: #000;
   border-radius: 0.2rem; /* 2px */
 }
+
 .header__icons {
   margin-left: auto;
   display: flex;
   align-items: center;
   gap: 2rem; /* 20px */
 }
+
 .header__icon-right img {
   margin-top: 0.5rem; /* 5px */
   width: 2rem; /* 20px */
   height: auto;
   filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
 }
+
 .header__price {
   font-size: 1.4rem; /* 14px */
   margin-left: 0.5rem; /* 5px */
+}
+
+/* RESPONSIVE */
+@media (max-width: 76.7rem) { /* 767px */
+  .header__inner {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .header__nav {
+    margin-left: 0;
+  }
+  .header__nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  .header__icons {
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 76.8rem) and (max-width: 102.3rem) { /* 768px to 1023px */
+  .header__inner {
+    justify-content: center;
+  }
 }

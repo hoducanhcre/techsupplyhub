@@ -1,0 +1,88 @@
+.hero {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.hero__slide {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero__slide img {
+    width: 100%;
+    height: auto;
+}
+
+.hero__text {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    text-align: left;
+}
+
+.hero__text h2 {
+    font-size: 3.6rem;
+    margin-bottom: 1rem;
+}
+
+.hero__text p {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+}
+
+.hero__text a {
+    display: inline-block;
+    text-align: left;
+    padding: 1.2rem 4rem;
+    border-radius: 0.8rem;
+    background: #1e90ff;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 600;
+    transition: background 0.3s;
+}
+
+.hero__text a:hover {
+    background: #007ad9;
+}
+
+/* ==== Tùy chỉnh kích thước nút điều hướng ==== */
+.carousel .control-arrow {
+    width: 100px !important; /* Chiều rộng cố định */
+    height: 100% !important; /* Chiều cao full carousel */
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    background: transparent !important; /* Mặc định trong suốt */
+    transition: background 0.3s ease-in-out; /* Hiệu ứng mượt */
+    opacity: 0; /* Mặc định ẩn nút */
+}
+
+/* Khi hover vào carousel thì hiển thị nút */
+.hero:hover .carousel .control-arrow {
+    opacity: 1; /* Hiển thị khi di chuột vào */
+}
+
+/* Khi hover vào nút điều hướng thì hiện nền */
+.carousel .control-arrow:hover {
+    background: rgba(0, 0, 0, 0.3) !important;
+}
+
+/* Định dạng nút prev (trái) và next (phải) */
+.carousel .control-prev {
+    left: 0 !important; /* Gắn sát cạnh trái */
+}
+
+.carousel .control-next {
+    right: 0 !important; /* Gắn sát cạnh phải */
+}
+
+/* Kích thước mũi tên */
+.carousel .control-arrow:before {
+    font-size: 45px !important; /* Mũi tên to lên 45px */
+    color: white !important; /* Màu trắng dễ thấy */
+}

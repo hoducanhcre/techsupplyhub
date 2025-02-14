@@ -139,3 +139,12 @@
     margin-left: 0.8rem; /* 8px */
     vertical-align: middle;
   }
+
+  /* RESPONSIVE */
+@media (max-width: 76.7rem) { /* 767px */
+  .footer__row {
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem; /* 20px */
+  }
+}

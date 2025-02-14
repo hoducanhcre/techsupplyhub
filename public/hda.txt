@@ -1,0 +1,17 @@
+npm install react-responsive-carousel
+
+            {/* <a href="#!" title="Compare">
+              <div className="header__icon-right">
+                <img src={require("../../assets/imgs/icons/header/arrow-left-right.svg").default} alt="Compare Icon" />
+              </div>
+            </a>
+            <a href="#!" title="Wishlist">
+              <div className="header__icon-right">
+                <img src={require("../../assets/imgs/icons/header/heart.svg").default} alt="Heart Icon" />
+              </div>
+            </a>
+            <a href="#!" title="Cart">
+              <div className="header__icon-right">
+                <img src={require("../../assets/imgs/icons/header/cart.svg").default} alt="Cart Icon" />
+              </div>
+            </a> */}

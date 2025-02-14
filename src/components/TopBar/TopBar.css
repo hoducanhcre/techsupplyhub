@@ -44,4 +44,14 @@
   .top-bar__right li span {
     margin-top: 0.4rem; /* 4px */
   }
+
+  /* RESPONSIVE */
+@media (max-width: 76.7rem) { /* 767px */
+  .top-bar__inner {
+    flex-direction: column;
+    height: auto;
+    gap: 0.5rem; /* 5px */
+  }
+}
+
   
