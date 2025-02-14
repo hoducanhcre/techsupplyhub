@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { NavLink } from "react-router-dom";
 import "./Header.css";
 
 const Header = () => {
@@ -6,7 +7,7 @@ const Header = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 40) { // Khi cuộn xuống hơn 40px (độ cao của Top Bar)
+      if (window.scrollY > 40) {
         setIsSticky(true);
       } else {
         setIsSticky(false);
@@ -24,15 +25,18 @@ const Header = () => {
       <div className="container__homepage">
         <div className="header__inner">
           <div className="header__logo">
-            <img src={require("../../assets/imgs/logo-white-new.png")} alt="logo-white-new" />
+            <NavLink to="/">  {/* Link về trang chủ */}
+              <img src={require("../../assets/imgs/logo-white-new.png")} alt="logo-white-new" />
+            </NavLink>
           </div>
           <nav className="header__nav">
             <ul>
-              <li><a href="#!" className="active">Home</a></li>
-              <li><a href="#!">Pages</a></li>
-              <li><a href="#!">Shop</a></li>
-              <li><a href="#!">Blog</a></li>
-              <li><a href="#!">Landing</a></li>
+              <li><NavLink to="/">Home</NavLink></li>  {/* Link trang chủ */}
+              <li><NavLink to="/products">Products</NavLink></li>
+              <li><NavLink to="/about">About Us</NavLink></li>
+              <li><NavLink to="/news">News</NavLink></li>
+              <li><NavLink to="/gallery">Gallery</NavLink></li>
+              <li><a href="#">Support</a></li>  {/* Không có link */}
             </ul>
           </nav>
           <div className="header__icons">

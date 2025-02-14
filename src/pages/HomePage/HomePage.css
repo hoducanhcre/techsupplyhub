@@ -299,6 +299,11 @@
     filter: none;
   }
 
+  /* Products Recent */
+  .products--recent {
+    padding-bottom: 9rem;
+  }
+
   /* RESPONSIVE */
 @media (max-width: 76.7rem) { /* 767px */
   .console__inner {

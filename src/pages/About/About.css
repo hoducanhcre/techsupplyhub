@@ -1,0 +1,22 @@
+.about {
+    background: #252525;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+ 
+  .about h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 1.4rem;
+    line-height: 1.8;
+    margin-bottom: 15px;
+  }
+  
