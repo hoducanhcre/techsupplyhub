@@ -1,9 +1,11 @@
 {
   "files": {
     "main.css": "/techsupplyhub/static/css/main.74d0eb51.css",
-    "main.js": "/techsupplyhub/static/js/main.f3088be8.js",
+    "main.js": "/techsupplyhub/static/js/main.ceecfc1f.js",
     "static/js/488.457689ce.chunk.js": "/techsupplyhub/static/js/488.457689ce.chunk.js",
+    "static/media/hero__slide--2.png": "/techsupplyhub/static/media/hero__slide--2.62f2da5692b41c1fbbd9.png",
     "static/media/hero__slide--1.png": "/techsupplyhub/static/media/hero__slide--1.ea174cf7e4461a7dc54c.png",
+    "static/media/hero__slide--3.png": "/techsupplyhub/static/media/hero__slide--3.6fef93c7844cd83124bb.png",
     "static/media/shop-img-114.png": "/techsupplyhub/static/media/shop-img-114.591d48b76c6376ff6ee9.png",
     "static/media/shop-img-95.png": "/techsupplyhub/static/media/shop-img-95.a44e61e26cac1f5f0bde.png",
     "static/media/shop-img-111.png": "/techsupplyhub/static/media/shop-img-111.4175d58813473c1c5b24.png",
@@ -56,11 +58,11 @@
     "static/media/geo-alt-fill.svg": "/techsupplyhub/static/media/geo-alt-fill.0db42c81a64e186b831b353c017dd952.svg",
     "static/media/person-fill.svg": "/techsupplyhub/static/media/person-fill.b558284273d0b6dfaa315151208c693e.svg",
     "main.74d0eb51.css.map": "/techsupplyhub/static/css/main.74d0eb51.css.map",
-    "main.f3088be8.js.map": "/techsupplyhub/static/js/main.f3088be8.js.map",
+    "main.ceecfc1f.js.map": "/techsupplyhub/static/js/main.ceecfc1f.js.map",
     "488.457689ce.chunk.js.map": "/techsupplyhub/static/js/488.457689ce.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.74d0eb51.css",
-    "static/js/main.f3088be8.js"
+    "static/js/main.ceecfc1f.js"
   ]
 }
