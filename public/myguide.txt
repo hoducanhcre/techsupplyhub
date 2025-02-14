@@ -23,3 +23,6 @@ npm install react-router-dom
 
 
 https://gizmos.qodeinteractive.com/wp-content/uploads/2022/10/home-11-slider-photo-3.jpg
+
+
+"homepage": "https://hoducanhcre.github.io/techsupplyhub",
